@@ -19,7 +19,13 @@ const NavBar = () => {
 					<li className={styles.listItem}>Homepage</li>
 					<li className={styles.listItem}>Products</li>
 					<li className={styles.listItem}>Menu</li>
-					<Image src="/img/main.jpeg" alt="" width="100" height="30" />
+					<Image
+						src="/img/main.jpeg"
+						alt=""
+						width="100"
+						height="50"
+						className="rounded-md"
+					/>
 					<li className={styles.listItem}>Events</li>
 					<li className={styles.listItem}>Blog</li>
 					<li className={styles.listItem}>Contact</li>
